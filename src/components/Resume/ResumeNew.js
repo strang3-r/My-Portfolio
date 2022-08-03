@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import Resume from '../../Assets/Resume.jpg';
-import pdf from "../../Assets/AtmagyanResume.pdf";
+import Resume from '../../Assets/Resume.png';
+import pdf from "../../Assets/Atmagyan.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Black-D3vil007/My-Portfolio/raw/main/src/Assets/AtmagyanResume.pdf";
+  "https://github.com/Black-D3vil007/My-Portfolio/raw/main/src/Assets/Atmagyan.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1000);

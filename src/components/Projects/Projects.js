@@ -9,6 +9,8 @@ import book from "../../Assets/Projects/book.jpeg";
 import auth from "../../Assets/Projects/auth.jpeg";
 import tindog from "../../Assets/Projects/tindog.jpeg";
 import krishikart from "../../Assets/Projects/Krishikart.png";
+import TMN from "../../Assets/Projects/TMN.jpeg";
+
 
 
 
@@ -81,6 +83,17 @@ function Projects() {
               title="TinDog"
               description="This is a simple website build using HTML and CSS. "
               link="https://github.com/Black-D3vil007/TinDog"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TMN}
+              isBlog={false}
+              title="TMN E-Commerce Website"
+              description="This is a simple website build using HTML and CSS. Developed this E-commerce website as live project in
+              Frontend Development Intern in Techmihirnaik Group."
+              link="https://github.com/Black-D3vil007/TMN_Ecomm"
             />
           </Col>
         </Row>

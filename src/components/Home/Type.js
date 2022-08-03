@@ -9,6 +9,7 @@ function Type() {
           "Web Developer",
           "Git & Github",
           "MERN Stack Developer",
+          "C/C++",
         ],
         autoStart: true,
         loop: true,
